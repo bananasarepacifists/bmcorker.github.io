@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'yujin_bubblesregular';
+    src: url('yujin_bubbles-webfont.woff2') format('woff2'),
+         url('yujin_bubbles-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
   margin:0px;
   padding:0px;
@@ -13,7 +22,7 @@ p {
   display: block;
   width: 400px;
   margin: 50px auto;
-  font: 30px Yujin_Bubbles.ttf;
+  font-family: 'yujin_bubblesregular';
 }
 
 img {
